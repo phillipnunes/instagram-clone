@@ -1,0 +1,13 @@
+.cards {
+  max-width: 900px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards__item {
+  max-width: 290px;
+  max-height: 290px;
+  margin-bottom: 15px;
+}

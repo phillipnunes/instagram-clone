@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../../assets/fonts/IndieFlower.ttf');
+}
+
+.header {
+  background-color: #FFF;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
+  height: 77px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__container {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  line-height: 0;
+  margin-left: 30px;
+}
+
+.header__logo {
+  height: 40px;
+  width: 40px;
+}
+
+.header__search {
+  margin: auto;
+}

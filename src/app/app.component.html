@@ -1,3 +1,30 @@
-<app-header></app-header>
-<app-details></app-details>
-<app-cards></app-cards>
+<header class="header">
+  <div class="header__container">
+    <img class="header__logo" src="../../assets/images/logo.png" alt="Logo">
+    <p class="header__title">Instaplash</p>
+    <input #searchInput type="text" name="search" class="header__search" (keyup.enter)="search(searchInput.value)" placeholder="Write something and press ENTER">
+  </div>
+</header>
+
+<section class="details">
+  <div class="details__container">
+    <img class="details__image" src="../../assets/images/logo.png" alt="Company logo">
+    <div class="details__content">
+      <p class="details__search-term">{{ searchTerm }}</p>
+      <span class="details__posts">
+        <span class="details__posts-number">{{ total }}</span> posts
+      </span>
+      <p class="details__description">
+          This is a clone from Instagram UI using Unsplash API
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="cards">
+  <div *ngFor="let image of images" class="cards__item">
+    <a class="cards__item-link" href="{{ image.links.html }}" target="_blank">
+      <img class="card__item-image" src="{{ image.urls.small }}" alt="">
+    </a>
+  </div>
+</div>

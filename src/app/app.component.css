@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../assets/fonts/IndieFlower.ttf');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('../assets/fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+
+.header {
+  background-color: #FFF;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
+  height: 77px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__container {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  line-height: 0;
+  margin-left: 30px;
+}
+
+.header__logo {
+  height: 40px;
+  width: 40px;
+}
+
+.header__search {
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, .0975);
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Poppins Regular';
+}
+
+.details__search-term {
+  font-size: 45px;
+  line-height: 0;
+}
+
+.details__search-term,
+.details__posts-number {
+  font-family: 'Poppins Bold';
+}
+
+.details__image {
+  width: 150px;
+  height: 150px;
+}
+
+.details__container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.details__content {
+  margin-left: 80px;
+}
+
+
+.cards {
+  max-width: 900px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards__item {
+  max-width: 290px;
+  max-height: 190px;
+  margin-bottom: 15px;
+}
+
+.card__item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

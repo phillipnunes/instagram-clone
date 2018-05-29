@@ -1,6 +1,6 @@
 # Instagram Clone (aka Instaplash)
 
-This is a clone from Instagram UI using [Unsplash API](https://unsplash.com/developers) and [BEM](http://getbem.com/) for naming CSS.
+This is a clone from Instagram UI using [Angular](https://angular.io/), [Unsplash API](https://unsplash.com/developers) and [BEM](http://getbem.com/) for naming CSS.
 
 ## Development server
 
